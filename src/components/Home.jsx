@@ -182,7 +182,7 @@ function Home(){
                 <div className="flex justify-center mt-8">
                 <ul className="max-w-5xl w-full bg-white  p-2 rounded shadow-md ">
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 ">
-                    {imageURLs1.slice(0, 12).map((produto) => (
+                    {imageURLs1.slice(0, 10).map((produto) => (
                     <li key={produto._id} className="w-40 sm:w-40 mb-4 text-sm  sm:text-base border">
                         <a href={`Productspage/${produto._id}`} className="block">
                         <img
