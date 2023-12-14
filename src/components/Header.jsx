@@ -51,6 +51,9 @@ function Header() {
 
     navigate('/favorites');
   };
+      const ProductPage = () => {
+    navigate("/productspage");
+  };
   const Profile_Page = () => {
 
     navigate('/profilepage');
@@ -86,8 +89,8 @@ function Header() {
                             <ul className=" flex justify-center  absolute mt-8 sm:top-3  h-auto bg-white border p-2 rounded shadow-md">
                               <div className="flex justify-between">
                                 {searchResults.slice(0, 5).map((produto) => (
-                                <li key={produto._id} className="w-52 sm:w-80  text-sm sm:text-base">
-                                  <a href={"/Productspage"}
+                                <li onClick={ProductPage}  key={produto._id} className="w-52 sm:w-80  text-sm sm:text-base">
+                                 
                                   className="text-center">
                                     
                                   
