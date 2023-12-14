@@ -51,7 +51,7 @@ const router = createBrowserRouter([
         element: <Forget />
       },
       {
-        path:  "/productspage/:id",
+        path:  "/productspage",
         element: <Productspage />
       },
       {
