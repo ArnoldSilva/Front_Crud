@@ -87,7 +87,7 @@ function Header() {
                               <div className="flex justify-between">
                                 {searchResults.slice(0, 5).map((produto) => (
                                 <li key={produto._id} className="w-52 sm:w-80  text-sm sm:text-base">
-                                  <a href={`Productspage/${produto._id}`}
+                                  <a href={"/Productspage"}
                                   className="text-center">
                                     
                                   
