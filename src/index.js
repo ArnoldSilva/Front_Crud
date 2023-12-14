@@ -20,6 +20,7 @@ import ConsultarById from "./components/Product/ConsultarById";
 import UpdateImage from "./components/UpdateImage";
 import GetAll from "./components/GetAll";
 import Errorpage from "./components/ErrorPage";
+import Productpage from "./components/ProductsPage";
 
 
 
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: '/forget',
         element: <Forget />
+      },
+      {
+        path: "/Productspage"
+        element: <Productspage />
       },
       {
         path: '/verify',
